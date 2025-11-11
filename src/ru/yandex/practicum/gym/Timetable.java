@@ -32,7 +32,7 @@ public class Timetable {
             return null;
         }
         return sessionsForDay.get(timeOfDay);
-    } //как реализовать, тоже непонятно, но сложность должна быть О(1)
+    }
 
     public List<CounterOfTrainings> getCountByCoaches() {
         Map<Coach, Integer> coachCounts = new HashMap<>();
